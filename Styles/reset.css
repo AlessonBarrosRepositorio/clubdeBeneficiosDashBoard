@@ -1,9 +1,18 @@
-*{
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('../Assets/fonts/PPTelegraf-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
     margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'MinhaFonte', sans-serif; /* Adicione uma fonte fallback */
 }
-body{
-overflow: hidden;
+
+body {
+    overflow: hidden;
 }
