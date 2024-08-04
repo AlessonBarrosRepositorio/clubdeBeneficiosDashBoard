@@ -1,0 +1,47 @@
+.conteudo{
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para Internet Explorer e Edge */
+    overflow: auto; /* Permite a rolagem */
+    max-height: 1080px; /* Define uma altura máxima para ativar a rolagem se necessário */
+}
+.conteudo::-webkit-scrollbar {
+    width: 0; /* Define a largura da barra de rolagem como 0 para escondê-la */
+    background: transparent; /* Torna a barra de rolagem transparente */
+  }
+.caixas{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+}
+.caixas>img{
+    position: absolute;
+}
+.letraG01{
+    top: 33%;
+    right: 20%;
+}
+.cardP01{
+    top:16%;
+    left: 10%;
+}
+.btnSaibaMais{
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 70px;
+    top:52%;
+    right: 28%;
+}
+.logoP01{
+    top:22%;
+    right: 30%;
+}
+.btnSaibaMais>p{
+    color: blue;
+    font-weight: bold;
+    font-size: x-large;
+}
