@@ -122,3 +122,55 @@
     flex-wrap: wrap;
     padding: 20px;
 }
+
+.seis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.esquerda h2 {
+    color: #2a61dc;
+    margin-bottom: 10px;
+}
+
+.esquerda a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.direita h3 {
+    color: #2a61dc;
+    margin-bottom: 5px;
+}
+
+.direita p {
+    margin-bottom: 15px;
+}
