@@ -104,3 +104,14 @@
     right:22%;
 }
 /*--------------------------------------------------------------------------*/
+.titulo03{
+    top:15%;
+    left:35%;
+    position: absolute;
+
+}
+.titulo03>h2{
+    font-size: 50px;
+    font-weight: 50px;
+    color: #2A6EF2;
+}
