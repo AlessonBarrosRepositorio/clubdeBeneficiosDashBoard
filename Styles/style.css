@@ -71,3 +71,32 @@
     font-size: 22px;
     line-height: 160%;
 }
+
+.branco{
+    color: #fff
+}
+
+.quarto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 1080px;
+}
+
+.quarto .branco {
+    z-index: 1;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+.quarto .fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
