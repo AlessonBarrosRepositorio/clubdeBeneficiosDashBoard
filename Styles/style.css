@@ -91,8 +91,13 @@
 .quarto .branco {
     z-index: 1;
     text-align: center;
-    width: 80%;
-    max-width: 800px;
+    width: 76%;
+    font-size: 58px;
+    line-height: 1.4;
+}
+.branco>a{
+    
+    color: #fff;
 }
 
 .quarto .fundo {
@@ -127,21 +132,7 @@
     padding: 20px;
 }
 
-.seis{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.sete {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .esquerda {
     display: flex;
@@ -212,14 +203,90 @@
 }
 /*--------------------------------------------------------------------------*/
 .titulo03{
-    top:15%;
+    top:10%;
     left:35%;
     position: absolute;
 
 }
 .titulo03>h2{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 50px;
     color: #2A6EF2;
+}
+
+.ap05{
+    left: 20%;
+}
+.opEM05{
+    right:20%;
+}
+.titulo05{
+    position: absolute;
+    top:15%;
+}
+.titulo05>h2{
+    color: #2A6EF2;
+    font-size: 50px;
+}
+.img05{
+    top:40%;
+}
+
+/*--------------------------------------------------------------------------*/
+.titulo06{
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo06>h2{
+    color: #2A6EF2;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.titulo06>p{    
+    font-size: 25px;
+    width: 55%;
+}
+.video{
+    width: 1028px;
+    height: 578px;
+    background-color: #000;
+    position: relative;
+    top:10%;
+    border-radius: 5px;
+}
+.seis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.direita{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.esquerda>h2{
+    width: 50%;
+    font-size: 60px;
+}
+.esquerda>a{
+    position: absolute;
+    left: 25%;
 }
 
