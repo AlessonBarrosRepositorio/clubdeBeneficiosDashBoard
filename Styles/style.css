@@ -12,6 +12,9 @@
     width: 1920px;
     height: 1080px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .caixas>img{
     position: absolute;
@@ -162,7 +165,6 @@
 .esquerda a {
     display: block;
     margin: 5px 0;
-    text-decoration: none;
     color: #000;
 }
 
