@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'MinhaFonte';
     src: url('../Assets/fonts/PPTelegraf-Regular.otf') format('opentype');
+    src: url('../Assets/fonts/PPTelegraf-UltraBold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,9 +11,16 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'MinhaFonte', sans-serif; /* Adicione uma fonte fallback */
+    font-family: 'MinhaFonte', Regular; /* Adicione uma fonte fallback */
 }
 
 body {
     overflow: hidden;
+}
+
+.titulo03>h2{
+
+    font-family: 'MinhaFonte',UltraBold;
+    font-weight: 50px;  
+    color: #2A6EF2;
 }
