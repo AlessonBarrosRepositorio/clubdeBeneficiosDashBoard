@@ -1,0 +1,89 @@
+@media screen and (max-width:480px){
+    
+    .primeira{
+        width: 480px;
+        height: 380px;
+        position: relative;
+    }
+    .fundo01{
+        width: 480px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .cardP01{
+        width: 30%;
+        position: absolute;
+        left: 4%;
+        top: 8%;
+    }
+    .letraG01{
+        width: 26%;
+        position: absolute;
+        right: 22%;
+        top: 38%;
+    }
+    .logoP01{
+        width: 10%;
+        position: absolute;
+        right: 32%;
+        top: 32%;
+    }
+    .btnSaibaMais{
+        width: 24%;
+        height: 8%;
+        position: absolute;
+        right: 22%;
+        top: 50%;
+    }
+    .btnSaibaMais>p{
+        font-size: 80%;
+    }
+    .segunda{
+        width: 480px;
+        position: relative;
+    }
+    .homemEnfermeiro02{
+        width: 30%;
+        top: 5%;
+        left: 10%;
+    }
+    .mulherEnfermeiro02{
+        width: 30%;
+        top: 0;
+        top: 10%;
+        left: 40%;
+    }
+    .titulo02{
+        top: 40%;
+        width: 88%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo02>h2{
+        font-size: 22px;
+        width: 80%;
+    }
+    .titulo02>P{
+        font-size: 16px;
+        width: 80%;
+    }
+    .terceiro{        
+        width: 480px;        
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo03{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .titulo03>h2{
+        font-size: 22px;
+    }
+}
