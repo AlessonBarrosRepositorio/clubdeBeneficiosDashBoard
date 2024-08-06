@@ -133,42 +133,6 @@
 }
 
 
-
-.esquerda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 20px;
-}
-
-.direita {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right;
-    padding-left: 20px;
-}
-
-.esquerda h2 {
-    color: #2a61dc;
-    margin-bottom: 10px;
-}
-
-.esquerda a {
-    display: block;
-    margin: 5px 0;
-    color: #000;
-}
-
-.direita h3 {
-    color: #2a61dc;
-    margin-bottom: 5px;
-}
-
-.direita p {
-    margin-bottom: 15px;
-}
-
 .cima03{
     top:35%;
 }
@@ -266,27 +230,72 @@
     align-items: center;
 }
 
+
 .esquerda{
     width: 50%;
     height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     position: relative;
 }
 .direita{
     width: 50%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
 }
-.esquerda>h2{
-    width: 50%;
-    font-size: 60px;
+.areaDireita07{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.esquerda>a{
+.areaEsquerda07{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40%;    
+    flex-direction: column;
+    position: relative;
+}
+@font-face {
+    font-family: 'MinhaaFonte';
+    src: url('../Assets/fonts/PPTelegraf-Regular.otf') format('opentype');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+.areaEsquerda07>h2{
+    width: 60%;
+    font-size: 50px;
     position: absolute;
-    left: 25%;
+    top: 0;
+    color: #2A6EF2;
 }
+.areaEsquerda07>a{
+    width: 40%;
+    font-size: 30px;    
+    text-align: left;
+    text-decoration: none;
+    font-family: 'MinhaaFonte', Regular;
+    margin-bottom:20px;
+    color: #000;
+}
+.areaDireita07>h3{    
+    font-size: 30px;    
+    text-align: left;
+    margin:20px;
+    color: #2A6EF2;
+}
+
+.areaDireita07>p{
+    font-size: 30px;    
+    text-align: left;
+    font-family: 'MinhaaFonte', Regular;
+    margin:20px;
+}
+
+
 
