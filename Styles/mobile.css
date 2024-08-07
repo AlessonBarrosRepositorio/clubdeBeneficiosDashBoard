@@ -1,12 +1,12 @@
 @media screen and (max-width:480px){
     
     .primeira{
-        width: 480px;
+        width: 423px;
         height: 380px;
         position: relative;
     }
     .fundo01{
-        width: 480px;
+        width: 423px;
         height: 100%;
         position: absolute;
         top: 0;
@@ -15,48 +15,49 @@
         width: 30%;
         position: absolute;
         left: 4%;
-        top: 8%;
+        top: 20%;
     }
     .letraG01{
-        width: 26%;
+        width: 36%;
         position: absolute;
-        right: 22%;
+        right: 18%;
         top: 38%;
     }
     .logoP01{
-        width: 10%;
+        width: 20%;
         position: absolute;
-        right: 32%;
-        top: 32%;
+        right: 28%;
+        top: 28%;
     }
     .btnSaibaMais{
-        width: 24%;
+        width: 30%;
         height: 8%;
         position: absolute;
-        right: 22%;
-        top: 50%;
+        right: 20%;
+        top: 52%;
     }
     .btnSaibaMais>p{
         font-size: 80%;
     }
     .segunda{
-        width: 480px;
+        width: 423px;
+        height: 720px;
         position: relative;
     }
     .homemEnfermeiro02{
+        
         width: 30%;
         top: 5%;
         left: 10%;
     }
     .mulherEnfermeiro02{
         width: 30%;
-        top: 0;
         top: 10%;
-        left: 40%;
+        left: 50%;
     }
     .titulo02{
-        top: 40%;
-        width: 88%;
+        top: 50%;
+        width: 100%;
         left: 0;
         display: flex;
         flex-direction: column;
@@ -72,18 +73,86 @@
         width: 80%;
     }
     .terceiro{        
-        width: 480px;        
+        width: 423px;
+        height: 520px;        
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
     .titulo03{
-        width: 100%;
         left: 0;
-        top: 0;
+        top: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .titulo03>h2{
-        font-size: 22px;
+        font-size: 36px;
+    }
+    .terceiro>img{
+         width:34%;    
+    }
+    .mag03{
+        top: 15%;
+    }
+    .mega03{
+        top: 20%;
+        left: 50%;
+    }
+    .deb03{
+        top:38%;
+        left: 8%;
+    }
+    .csd03{
+        top: 32%;
+        left: 50%;
+    }
+    .sen03{
+        top: 50%;
+        left: 6%;
+    }
+    .tec03{
+        top: 62%;
+        left:50%;
+    }
+    .cai03{
+        top: 72%;
+        left: 6%;
+    }
+    .quarto{
+        width: 423px;
+        height: 300px;
+    }
+    .quarto .branco{
+        width: 90%;
+       font-size: 20px;
+    }
+    .cinco{
+        width: 423px;
+        height: 1360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .titulo05{
+        position: initial;
+        margin: 0 0 20px 0;
+        width: 100%;
+        left: 0;
+        
+    }
+    .titulo05>h2{
+        font-size: 40px;
+        margin: 0 0 0 0;        
+    }
+    .cinco>img{
+        position: initial;
+        
+        margin: 0 0 20px 0;
     }
 }
