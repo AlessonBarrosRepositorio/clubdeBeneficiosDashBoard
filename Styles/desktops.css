@@ -1,5 +1,8 @@
 @media screen and (max-width: 1366px) {
     /*--------------------------Primeira-----------------------*/
+    .caixas{
+        width: 100%;
+    }
     .primeira{
         width: 100%;
     }
@@ -63,8 +66,28 @@
     }
     .titulo03{
         top: 5%;
-        position: initial;
-
+        left: 25%
+    }
+    .ap05{
+        left: 10%;
+    }
+    .opEM05{
+        right: 10%;
+    }
+    .img05{
+        top: 25%
+    }
+    .titulo05{
+        top: 10%
+    }
+    .areaEsquerda07{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 5%
+    }
+    .seteH2{
+        width: 100%;
     }
     /*-----------------------quarto----------------------------*/
     /*-----------------------quinto----------------------------*/
