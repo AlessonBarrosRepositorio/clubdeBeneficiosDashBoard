@@ -1,5 +1,59 @@
+@media screen and (max-width: 1760px) and (min-width: 1367px) {
+    .caixas{
+        width: 100%;
+    }
+    .fundo01{
+        width: 100%;
+        top: 0;
+    }
+    .primeira{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .letraG01{
+        width: 30%;
+    }
+    .cardP01{
+        width: 20%;
+    }
+    .btnSaibaMais{
+        width: 20%;
+    }
+    .homemEnfermeiro02{
+        width: 10%;
+        top: 30%;
+        bottom: 10%;
+    }
+    .mulherEnfermeiro02{
+        width: 10%;
+        top: 40%;
+        bottom: 10%;
+    }
+    .titulo03{
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .ap05{
+        left: 10%;
+    }
+    .opEM05{
+        right: 10%;
+    }
+    .img05{
+        top: 25%
+    }
+    .titulo05{
+        top: 10%
+    }
+}
+
 @media screen and (max-width: 1366px) {
     /*--------------------------Primeira-----------------------*/
+    .caixas{
+        width: 100%;
+    }
     .primeira{
         width: 100%;
     }
@@ -58,13 +112,33 @@
         left: 4%;
     }
     /*-----------------------terceiro--------------------------*/
-    .terceira{
+    .terceiro{
         width:100%;
     }
     .titulo03{
         top: 5%;
-        position: initial;
-
+        left: 25%
+    }
+    .ap05{
+        left: 10%;
+    }
+    .opEM05{
+        right: 10%;
+    }
+    .img05{
+        top: 25%
+    }
+    .titulo05{
+        top: 10%
+    }
+    .areaEsquerda07{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 5%
+    }
+    .seteH2{
+        width: 100%;
     }
     /*-----------------------quarto----------------------------*/
     /*-----------------------quinto----------------------------*/
