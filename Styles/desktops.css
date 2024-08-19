@@ -48,7 +48,12 @@
         top: 10%
     }
 }
-
+@media screen and (max-width:1600px){
+    .btnSaibaMais{
+        top:48%;
+        right: 24%;
+    }
+}
 @media screen and (max-width: 1366px) {
     /*--------------------------Primeira-----------------------*/
     .caixas{
