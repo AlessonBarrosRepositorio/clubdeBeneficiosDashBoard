@@ -143,6 +143,71 @@
     /*-----------------------quarto----------------------------*/
     /*-----------------------quinto----------------------------*/
 }
+@media screen and (min-width: 1025px) and  (max-width: 1230px){
+    
+    .fundo01{
+        height: 100%;
+    }
+    .cardP01{
+        width: 30%;
+        top:26%;
+        left: 5%;
+    }
+    .logoP01{
+        top:36%;
+        right: 24%;
+    }
+    .letraG01{
+        top: 43%;
+        right: 12%;
+        width: 40%;
+    }
+    .btnSaibaMais{
+        width: 40%;
+        top:54%;
+        right: 12%;
+    }
+    .btnSaibaMais>p{
+        font-size: 200%;
+    }
+    .homemEnfermeiro02{
+        left: 28%;
+    }
+    .mulherEnfermeiro02{
+        left:50%;
+    }
+    .titulo02{
+        left:24%;
+        top: 48%;
+    }
+    .cinco{
+        height: 700px;
+    }
+    .titulo03{
+        top:0%;
+        left:0;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+            
+    }
+    .titulo03>h2{
+        font-size: 70px;
+        font-weight: 50px;
+        color: #2A6EF2;
+    }
+    /*-----------------------03--------------------*/
+    .terceiro>img{
+        width: 15%;
+    }
+    /*-----------------------03--------------------*/
+    .cinco>img{
+        width: 26%;
+    }
+    .video{
+        width: 90%;
+    }
+}
 @media screen and (max-height: 720px){
     .sete{
         height: 1200px;
