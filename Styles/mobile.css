@@ -94,27 +94,27 @@
         top: 15%;
     }
     .mega03{
-        top: 20%;
+        top: 26%;
         left: 50%;
     }
     .deb03{
-        top:38%;
+        top:46%;
         left: 8%;
     }
     .csd03{
-        top: 32%;
+        top: 42%;
         left: 50%;
     }
     .sen03{
-        top: 50%;
+        top: 60%;
         left: 6%;
     }
     .tec03{
-        top: 62%;
+        top: 72%;
         left:50%;
     }
     .cai03{
-        top: 72%;
+        top: 86%;
         left: 6%;
     }
     .quarto{
@@ -176,6 +176,7 @@
     }
     .sete{
         width: 480px;
+        height: 1500px;
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -183,7 +184,7 @@
     }
     .esquerda{
         width: 100%;
-        height: 460px;
+        height: 240px;
     }
     .direita{
         width: 100%;
@@ -194,6 +195,7 @@
         justify-content: center;
         align-items: center;        
         width: 100%;
+        height: 100%;
         text-align: center;
     }
     .areaEsquerda07>h2{
@@ -201,7 +203,7 @@
         font-size: 30px;
     }
     .areaDireita07{
-        height: 1210px;
+        height: 100%;
     }
 
 }
@@ -387,6 +389,7 @@
     }
     .sete{
         width: 410px;
+        height: 1500px;
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -394,7 +397,7 @@
     }
     .esquerda{
         width: 100%;
-        height: 580px;
+        height: 240px;
     }
     .direita{
         width: 100%;
@@ -403,8 +406,10 @@
     .areaEsquerda07{
         display: flex;
         justify-content: center;
-        align-items: center;        
+        align-items: center;
+        left: 0;        
         width: 100%;
+        height: 100%;
         text-align: center;
     }
     .areaEsquerda07>h2{
@@ -414,14 +419,14 @@
     }
 
     .areaDireita07{
-        height: 1210px;
+        height:100%;
     }
 
 }
 @media screen and (max-width:400px){
     
     .primeira{
-        width: 390px;
+        width: 400px;
         height: 380px;
         position: relative;
     }
@@ -572,7 +577,7 @@
     }
     .cinco>img{
         position: initial;
-        
+        width: 50%;        
         margin: 0 0 20px 0;
     }
     .seis{
@@ -607,7 +612,7 @@
     }
     .esquerda{
         width: 100%;
-        height: 460px;
+        height: 240px;
     }
     .direita{
         width: 100%;
@@ -619,14 +624,14 @@
         align-items: center;        
         width: 100%;
         text-align: center;
-        height: 300px;
+        height: 100%;
     }
     .areaEsquerda07>h2{
         width: 100%;
         font-size: 30px;
     }
     .areaDireita07{
-        height: 1410px;
+        height: 100%;
     }
 
 }
