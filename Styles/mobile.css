@@ -1,4 +1,122 @@
 
+@media screen and (max-width: 720px){
+    .caixas{
+        width: 100%;
+        height: 780px;
+    }
+    .fundo01{
+        width: 100%;
+        height: 480px;
+    }
+    .cardP01{
+        width: 20%;
+        top:26%;
+        left: 5%;
+    }
+    .logoP01{
+        top:18%;
+        right: 24%;
+    }
+    .letraG01{
+        top: 24%;
+        right: 12%;
+        width: 40%;
+    }
+    .btnSaibaMais{
+        width: 36%;
+        top:34%;
+        right: 12%;
+        text-align: center;
+    }
+    .btnSaibaMais>p{
+        font-size: 200%;
+    }
+    .homemEnfermeiro02{
+        left: 28%;
+    }
+    .mulherEnfermeiro02{
+        left:50%;
+    }
+    .titulo02{
+        left:24%;
+        top: 48%;
+    }
+    .cinco{
+        height: 700px;
+    }
+    .titulo03{
+        top:0%;
+        left:0;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+            
+    }
+    .titulo03>h2{
+        font-size: 70px;
+        font-weight: 50px;
+        color: #2A6EF2;
+    }
+    /*-----------------------03--------------------*/
+    .terceiro>img{
+        width: 15%;
+    }
+    /*-----------------------03--------------------*/
+    .cinco>img{
+        width: 26%;
+    }
+    .video{
+        width: 90%;
+        height: 400px;
+    }
+    .seis{
+        height: 800px;
+    }
+    .sete{
+        height: 1000px;
+    }
+    .esquerda{
+        left: 0;
+    }
+    .direita{
+        right: 0;
+    }
+    .areaEsquerda07{
+        position: absolute;
+        top: 10%;
+        height: 281px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        left: 0;
+    }
+    .arealink{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .arealink>a{
+        font-size: 20px;
+    }
+    .areaEsquerda07>h2{
+        font-size: 30px;
+    }
+    .areaDireita07{
+        position: absolute;
+        top: 10%;
+    }
+    .areaDireita07>h3,p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .areaDireita07>p{
+        font-size: 15px;
+    }
+
+}
 @media screen and (max-width:480px){
     
     .primeira{
